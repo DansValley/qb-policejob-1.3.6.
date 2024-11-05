@@ -7,82 +7,132 @@ Güncellemeler
 v1.3.0
 
 Kelepçe, zip bağ, kırık kelepçeler, kelepçe anahtarları, bolt kesici ve flush kesici eklendi
+
 Oyuncuları kelepçeleyebilir ve kelepçe anahtarlarıyla çözülebilirsiniz
+
 Sadece kelepçelerin olduğu taraftan (ön / arka) çözülebilirsiniz (zip bağlar için de aynı)
+
 Oyuncuları zip bağlayabilir ve flush kesici ile kesebilirsiniz
+
 Yasal olmayanlar, kelepçeleri kesmek için bolt kesici kullanabilir ve kırık kelepçeler alır
 
 
 v1.3.1
 
 Kelepçe kullanıldığında, kelepçe anahtarı alırsınız ve kelepçeler kaldırılır
+
 Anahtar kullandığınızda, anahtar kaldırılır ve tekrar kelepçeleri alırsınız
+
 Araç giydirme menüsü eklendi
+
 Polis araçları için fiyatlar eklendi
 
 
 v1.3.2 :
 
 Zip bağlar için yeni nesne eklendi
+
 Önceden kelepçelenmiş oyuncuların soygun yapma sorunu düzeltildi
+
 Yapılandırılabilir kelepçe türleri eklendi, burada hangi tür kelepçe ile oyuncunun hareket edip edemeyeceğini seçebilirsiniz
+
 
 
 v1.3.3
 
 Parmak izi UI'sı değiştirildi
+
 Delil araştırma seçeneği eklendi. Polis, dolu delil çantalarını laboratuvarında araştırabilir ve delil hakkında daha fazla bilgi görebilir
+
 Polis için depo ve çekme sistemi değiştirildi. Araç üzerine hedef kullanarak depo/çekim ücreti alabilirsiniz
+
 Vatandaşlar polis çekme alanına erişebilir ve kendi araçlarını görebilir. Ücreti ödediklerinde kendi araçlarını alabilirler
+
 Kurtulma seçeneği eklendi. Bunu yapılandırmada etkinleştirirseniz, kelepçelenmiş oyuncu bir mini oyun görecektir ve başarılı olursa kaçabilir.
+
 Depo/çekim için negatif miktar problemleri düzeltildi
+
 Eksik ifadelerle ilgili uyarı düzeltildi
+
 Ölü veya son aşamada olan oyuncular için animasyon düzeltmesi
+
 
 
 v1.3.4
 
 Genel delil deposunun açılmama problemi düzeltildi
+
 Kurtulma sistemi için ps-ui seçeneği eklendi
+
 Başarıyla kelepçelenen veya vatandaşın kurtulduğunda, polise bildirim gönderilecek
+
 qb-target / qtarget / ox_target desteği eklendi
+
 Parmak izi görüntüsünün yanlış kişiyi göstermesi düzeltildi
+
 Ateş ederken mermi düşürme olasılığı artırıldı
+
 LEO iseniz, ateş ederken mermi düşüremezsiniz
+
 Blip ağ olayı optimize edildi
 
 v1.3.5
 
 Laboratuvar delil menüsünün kan veya parmak izi göstermemesi düzeltildi (teşekkürler @ F7)
+
 Birini eskort ederken polislerin koşma / zıplama durumu devre dışı bırakıldı
 
 
 v1.3.6
 
 Script başlatıldığında hedeften kaynaklanan hata düzeltildi
+
 Blip sistemi optimize edildi
+
 Her ayrı LEO iş için renk seçenekleri eklendi (bcso = turuncu, polis = mavi, sasp = yeşil vb.)
+
 Blip'lerin etkinleştirilmesi/devre dışı bırakılması için leo-gps nesnesi eklendi (resimler klasörü içinde)
+
 GPS nesnenizi kaybettiğinizde veya düşürdüğünüzde, blip'iniz silinecek (birisi sizi soygun yapar ve GPS'inizi alırsa)
+
 Araç türüne göre farklı blip sprite'ları (helikopter, bot, uçak, motosiklet, acil durum araçları ve diğer tüm araçlar için)
 Mevcut
+
 Görevde / görev dışı, kıyafet, araç, depo vb. gibi klasik gereksinimler
+
 Vatandaş kimlik tabanlı silah deposu (Beyaz listeye alınmış)
+
 Parmak izi testi
+
 Delil deposu (depo)
+
 Beyaz listeye alınmış araçlar
+
 Harita üzerindeki hız radarları
+
 Stormram
+
 Oyuncu aracını çekme (kalıcı / belirli bir ücret karşılığında)
+
 Entegre hapishane sistemi
+
 Mermi kovanları
+
 GSR
+
+
 Kan damlası
+
 Delil çantası ve para çantası
+
 Polis radarı
+
 Kelepçe bir nesne olarak (Komutlar bölümünü kontrol edin. Komutlar bölümünde kullanılabilir.)
+
 Acil durum hizmetleri haritada birbirlerini görebilir
+
 Kurulum
+
 Resimler klasöründeki resimleri envanter resimleri klasörünüze kopyalayın
 
 Aşağıdaki öğeleri qb-core\shared\items.lua dosyanıza ekleyin
