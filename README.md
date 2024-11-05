@@ -11,17 +11,23 @@ Oyuncuları kelepçeleyebilir ve kelepçe anahtarlarıyla çözülebilirsiniz
 Sadece kelepçelerin olduğu taraftan (ön / arka) çözülebilirsiniz (zip bağlar için de aynı)
 Oyuncuları zip bağlayabilir ve flush kesici ile kesebilirsiniz
 Yasal olmayanlar, kelepçeleri kesmek için bolt kesici kullanabilir ve kırık kelepçeler alır
+
+
 v1.3.1
 
 Kelepçe kullanıldığında, kelepçe anahtarı alırsınız ve kelepçeler kaldırılır
 Anahtar kullandığınızda, anahtar kaldırılır ve tekrar kelepçeleri alırsınız
 Araç giydirme menüsü eklendi
 Polis araçları için fiyatlar eklendi
+
+
 v1.3.2 :
 
 Zip bağlar için yeni nesne eklendi
 Önceden kelepçelenmiş oyuncuların soygun yapma sorunu düzeltildi
 Yapılandırılabilir kelepçe türleri eklendi, burada hangi tür kelepçe ile oyuncunun hareket edip edemeyeceğini seçebilirsiniz
+
+
 v1.3.3
 
 Parmak izi UI'sı değiştirildi
@@ -32,6 +38,8 @@ Kurtulma seçeneği eklendi. Bunu yapılandırmada etkinleştirirseniz, kelepçe
 Depo/çekim için negatif miktar problemleri düzeltildi
 Eksik ifadelerle ilgili uyarı düzeltildi
 Ölü veya son aşamada olan oyuncular için animasyon düzeltmesi
+
+
 v1.3.4
 
 Genel delil deposunun açılmama problemi düzeltildi
@@ -42,10 +50,13 @@ Parmak izi görüntüsünün yanlış kişiyi göstermesi düzeltildi
 Ateş ederken mermi düşürme olasılığı artırıldı
 LEO iseniz, ateş ederken mermi düşüremezsiniz
 Blip ağ olayı optimize edildi
+
 v1.3.5
 
 Laboratuvar delil menüsünün kan veya parmak izi göstermemesi düzeltildi (teşekkürler @ F7)
 Birini eskort ederken polislerin koşma / zıplama durumu devre dışı bırakıldı
+
+
 v1.3.6
 
 Script başlatıldığında hedeften kaynaklanan hata düzeltildi
